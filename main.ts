@@ -1,6 +1,15 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 2) {
-        pins.digitalWritePin(DigitalPin.P2, 1)
+        for (let index = 0; index < 1; index++) {
+            basic.showString("CLOSE!")
+        }
+        basic.clearScreen()
+    }
+    if (receivedNumber == 3) {
+        for (let index = 0; index < 2; index++) {
+            basic.showString("Item Found !!!")
+        }
+        basic.clearScreen()
     }
 })
 radio.setGroup(1)

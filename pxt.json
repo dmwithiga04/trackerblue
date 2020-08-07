@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "BitBot": "github:4tronix/bitbot#1.4.6"
     },
     "files": [
         "main.blocks",
